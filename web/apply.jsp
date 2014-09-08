@@ -14,9 +14,9 @@
           Statement st = null;
           
           try{
-               String url = "jdbc:mysql://localhost:3306/mysql?zeroDateTimeBehavior=convertToNull";
+               String url = "jdbc:mysql://localhost:3306/pag";
                
-               con = DriverManager.getConnection(url,"root","vendaboy");
+               con = DriverManager.getConnection(url,"root","Precious727");
                st = con.createStatement();
              }
              catch(Exception e){
