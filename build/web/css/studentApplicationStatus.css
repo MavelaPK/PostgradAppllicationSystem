@@ -1,0 +1,195 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 31, 2014, 8:14:24 PM
+    Author     : Peloza
+*/
+
+#header
+{
+    width: 1250px;
+    margin: 0 auto;
+    background-color: #ccccff;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: end;
+    font-weight: bolder;
+}
+
+#logo
+{
+    height: 100px;
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -95px;
+}
+
+#body
+{
+   font-family: Arial, Helvetica, sans-serif;
+   width: 850px;
+   text-align: justify;
+   margin: 20px;
+}
+
+
+#menu ul
+{
+    list-style-type: none;
+    margin-left: 15px;
+    padding: 5px;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+
+#menu li
+{
+    display: block;
+    float: left;
+}
+
+ #menu a:link, a:visited
+{
+    font-weight: bolder;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    margin-left: 30px;
+    padding-right: 60px;
+    
+}
+
+#menu a:hover, a:active
+{
+    //background-color: #E8E8E8;
+}
+
+#menu li ul
+{
+    display: none;
+    position: absolute;
+}
+
+#menu li:hover ul
+{
+    display: block;
+    height: 250px;
+    width: 350px;
+}
+
+#menu li ul li
+{
+    clear: both;
+    border-style: none;
+}
+h2
+{
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#emailContent
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin-right: 25px;
+    font-size: 17px;
+    font-weight: bold;
+    list-style: none;
+}
+
+#emailContent label
+{
+    width: 120px;
+}
+
+#emailContent input
+{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 200px;
+    border: 1px solid black;
+   
+}
+
+#emailContent ol li
+{
+    list-style: none;
+}
+
+#emailContent button
+{
+    border-radius: 20px;
+    border: 1px solid black;
+    color: #000000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-right: 150px;
+    padding: 8px 18px;
+    float: right;
+    margin-bottom: 30px;
+    //margin-top: 5px;
+}
+
+#emailContent button:hover
+{
+    cursor: pointer;
+}
+
+#authorisation
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+    padding-top: 10px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#authorisation ol li
+{
+    list-style: none;
+}
+
+#authorisation label
+{
+    width: 110px;
+    margin-top: 20px;
+}
+
+#authorisation input
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 200px;
+}
+
+#authorisation button
+{
+    border-radius: 20px;
+    border: 1px solid black;
+    color: #000000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    padding: 5px 10px;
+    margin-bottom: 30px;
+    margin-right: 85px;
+    margin-top: 40px;
+   float: left;
+    //margin-top: 5px;
+}
+
+#emailContent button:hover
+{
+    cursor: pointer;
+}
+

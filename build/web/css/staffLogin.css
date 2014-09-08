@@ -1,0 +1,224 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 27, 2014, 7:06:28 PM
+    Author     : Peloza
+*/
+
+
+#header
+{
+    width: 1250px;
+    margin: 0 auto;
+    background-color: #ccccff;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-align: end;
+    font-weight: bolder;
+}
+
+#logo
+{
+    height: 100px;
+    width: 150px;
+    float: left;
+    margin-left: 20px;
+    margin-top: -95px;
+}
+
+#body
+{
+   font-family: Arial, Helvetica, sans-serif;
+   width: 850px;
+   text-align: justify;
+   margin: 20px;
+}
+
+#menu ul
+{ 
+   margin-left: 25px;
+   list-style-type: none;
+   padding-bottom: 20px;
+   padding: 5px;
+}
+
+#menu li
+{
+   display: block;
+   float: left; 
+   margin-right: 55px;
+  
+}
+
+#menu li ul
+{
+    display: none;
+    position: absolute;
+    
+}
+
+
+#menu a:link, a:visited
+{
+  font-weight: bolder;
+  background-color: #ffffff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+#menu li:hover ul
+{
+    display: block;
+    height: 250px;
+    width: 350px;
+}
+
+#content label
+{
+    //margin-top: 15px;
+    //padding: 10px;
+    font-size: 17px;
+    width: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+#content ol li
+{
+    list-style: none;
+    padding: 15px;
+    margin-right: 100px;
+    padding-top: 25px;
+}
+
+#content input
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 155px;
+    border: 1px solid black;
+    margin-right: 5px;
+}
+
+#content button
+{
+    border-radius: 25px;
+    border: 1px solid black;
+    color: #000000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-right: 285px;
+    padding: 10px 20px;
+    //margin-top: 5px;
+}
+
+#content button:hover
+{
+    cursor: pointer;
+}
+
+#staffMenu
+{
+    float: right;
+    //padding-right: 20px; 
+    padding-top: 15px;
+    
+}
+
+#staffMenu ul
+{
+    list-style-type: none;
+}
+
+#staffMenu li
+{
+    margin-bottom: 10px;
+}
+
+#staffMenu a:link, a:visited
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+/*#main
+{
+    background:#E8E8E8;
+}
+
+
+
+html, body, h1, form, fieldset, legend, ol, li
+{
+    margin: 0;
+    padding: 0;
+}
+
+form#staffLogin
+{
+    width: 800px;
+    padding: 20px;
+}
+
+form#staffLogin label
+{
+    float: left;
+    font-size: 20px;
+    width: 110px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 5px;
+}
+
+form#staffLogin ol li
+{
+    list-style: none;
+    padding: 15px;
+    margin-right: 200px;
+    padding-top: 50px;
+}
+
+form#staffLogin input
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 250px;
+    border: 1px solid black;
+}
+
+form#staffLogin button
+{
+    border-radius: 25px;
+    border: 1px solid black;
+    color: #000000;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-right: 285px;
+    padding: 10px 20px;
+    margin-top: 15px;
+}
+
+form#staffLogin button:hover
+{
+    cursor: pointer;
+}
+
+#staffMenu
+{
+    padding: 600px;
+}
+
+staff ul li
+{
+    float: right;
+}*/
